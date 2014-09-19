@@ -1,0 +1,154 @@
+#page-wrapper a{
+    font-style: normal;
+}
+table td, table th{
+    border:none;
+}
+body{
+    font-size: 15px;
+}
+h1,h2{
+    border-bottom: 1px #ccc solid;
+}
+
+
+#logo img{
+    height:70px;
+}
+#name-and-slogan{
+    width: 500px;
+}
+
+.view-film-page .views-field{
+    /*padding:2px 0;*/
+}
+.view-film-page .views-field-field-cover{
+    float:left;
+}
+.view-film-page .views-row{
+    clear:both;
+    height:170px;
+    margin-bottom:20px;
+}
+.view-film-page .views-field-title{
+    font-size: 21px;
+    display:inline;
+    float:left;
+}
+.view-film-page .views-field-field-eng-name{
+    display:inline;
+    font-size: 13px;
+}
+
+.page-node .field-name-field-photo .field-item{
+    float:left;
+}
+
+/** all products form */ 
+.views-exposed-form .description{
+    font-size: 11px;
+    color: #aaaaaa;
+}
+.views-exposed-form{    
+    margin-bottom: 20px;
+    border-bottom: 1px #aaaaaa solid;
+}
+
+/** Overflow */ 
+#main-content .node img{
+    float: none;
+}
+
+/** front */
+.front .breadcrumb-wrapper{
+    display: none;
+}
+
+/** carousel */
+.view-carousel{
+    position:relative;
+}
+ /** controller */
+    #views_slideshow_controls_text_previous_carousel-block,
+    #views_slideshow_controls_text_next_carousel-block{
+        z-index: 50;
+        height: 240px;
+        position: absolute;
+        top: 0;
+        width:50px;
+    }
+    #views_slideshow_controls_text_previous_carousel-block{
+        background:url(img/arrow-left.png) no-repeat 50% 50%;
+    }
+    #views_slideshow_controls_text_previous_carousel-block span{
+        position:absolute;
+    }
+    #views_slideshow_controls_text_previous_carousel-block:hover{
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+        opacity: 0.7;
+    }
+    #views_slideshow_controls_text_previous_carousel-block a,
+    #views_slideshow_controls_text_previous_carousel-block:hover a{
+    color: transparent;
+    }
+
+
+    #views_slideshow_controls_text_next_carousel-block:hover{   
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+        opacity: 0.7;
+    }
+    #views_slideshow_controls_text_next_carousel-block{
+        right: 0;
+        background: url(img/arrow-right.png) no-repeat 50% 50%;
+    }
+    #views_slideshow_controls_text_next_carousel-block a,
+    #views_slideshow_controls_text_next_carousel-block:hover a{
+        color:transparent;
+    }
+    #views_slideshow_controls_text_pause_carousel-block{
+        display:none;
+    }
+
+
+
+/** pager */
+#widget_pager_bottom_carousel-block{
+        position:absolute;
+        z-index:10;
+        bottom:0;
+        width:100%;
+    }
+#widget_pager_bottom_carousel-block .views-slideshow-pager-field-item{
+        width:17px;
+        line-height: 17px;
+        height:17px;
+        margin:10px;
+        /*font-size: 23px;*/
+        background: #fff;
+        border-radius:50%;
+        cursor: pointer;
+        color:transparent;
+        float:left;
+    }
+    #widget_pager_bottom_carousel-block .views-slideshow-pager-field-item.active{
+        background: #000000;
+    }
+    #widget_pager_bottom_carousel-block .views-slideshow-pager-field-item:hover{
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+        opacity: 0.7;
+    }
+
+/** node . movie */
+#main-content .node .field-name-field-eng-name{
+    font-size: 17px;
+    line-height: 18px;
+    padding-top: 6px;
+    color: #6f0025;
+}
+
+.ds-2col > .group-left{
+    width: 30%;
+}
+.ds-2col > .group-right{
+    width: 70%;
+}

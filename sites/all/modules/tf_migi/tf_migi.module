@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the tf_migi feature.
+ */
+
+include_once 'tf_migi.features.inc';
